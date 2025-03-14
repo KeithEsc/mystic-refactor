@@ -1,0 +1,45 @@
+<div class="text-container">
+  <h1 class="header">Book the Look</h1>
+  <p class="statement">
+    Colorado Springs' destination for the personalized salon experience you
+    deserve.
+  </p>
+</div>
+
+<style>
+  /* 1. Box sizing for consistency */
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  /* 2. Remove default margins and padding */
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .text-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    height: 20vh;
+    overflow: auto;
+    gap: 1rem;
+  }
+
+  .header {
+    font-family: "Italiana", sans-serif;
+    font-size: clamp(1.5rem, 2vw, 5rem);
+    text-transform: uppercase;
+  }
+
+  .statement {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    padding-inline: 1rem;
+  }
+</style>
